@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    align-content: center;    
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 35pt;
+}
+
+header{
+    background-image: url(imagens/banner.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 509px;
+    position: relative;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    color: white;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 5px;
+}
+
+#header{
+    display: flex;
+}
+
+#barra{
+    background-color: green;
+    height: 10px;
+    width: 100vw;
+}
+
+#hand{
+    height: 430px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 7%;
+}
+
+#espaco{
+    width: 800px;
+    display: flex;
+}
+
+#aaa{
+    width: 400px;
+    font-weight: bold;
+    font-size: 15pt;
+    color: white;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 230, 0, 0.6);
+    height: 83px;
+    width: 83px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 5px;
+}
+
+#flex1{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 1100px;
+    height: 270px;
+}
+
+#div2{
+    background-color: lightslategray;
+}
+
+button{
+    background-color: green;
+    border-radius: 20%;
+}
+
+#botoes svg,#botoes img{
+    height: 25px;
+    width: 25px;
+}
+
+#botoes div{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-evenly;
+    
+}
+p{
+    font-family: sans-serif;
+    color: grey;
+}
+ #botoes {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ .flex3{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .Subtitulo{
+     font-weight: bold;
+     color: black
+ }
+
+ #flex4{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+
+
+ #lorem{
+     margin: 0 250px;
+     padding: 30px;
+ }
+
+ footer{
+     background-color: lightgrey;
+     display: flex;
+     align-content: center;
+     flex-direction: row;
+     justify-content: space-evenly;
+     height: 200px;
+ }
+
+ #notification{
+    display: flex;
+    align-items: flex-start ;
+    justify-content: space-around;
+    background-color: #ccc;
+    padding: 8vh 10vw;
+    padding-left: 15vw
+}
+#notification div{
+    width: 50%;
+}
+#banner{
+    background-image: url(imagens/banner.png);
+    background-size: cover;
+    max-width: 480px;
+    height: 270px;
+    border-radius: 15px;
+}
+#notification input{
+    border: solid 1px #ccc;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 40px;
+    align-self: stretch;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#notification button{
+    border: solid 1px #ccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 41px;
+    background-color: green;
+    color: white;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+#notification div #blockMail{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
